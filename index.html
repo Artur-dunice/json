@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Json parser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="drop">
+        <div class="help" id="help">
+            Для загрузки, перетащите файл сюда.
+            <svg fill="#6b6b6b" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+                <path d="M0 0h24v24H0z" fill="none"/>
+            </svg>
+        </div>
+        <label id="label" for="input" class="button">
+            Выбрать файл
+        </label>
+        <input type="file" class="hide" id="input">
+        <textarea id="area" class="textarea hide" cols="30" rows="10"></textarea>
+        <button id="reset" class="reset hide">Сбросить</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
